@@ -1,24 +1,165 @@
+/*Index/About Page*/
+
 body {
-    background-image: url("./images/moroccan-flower.jpg");
-  }
+  /* Box-model */
+  padding: 0;
+
+  /* Positioning */
+  margin: 0;
+  font-family: 'Kumbh Sans', sans-serif
+
+  /* Visual */
+  background-image: url("./images/moroccan-flower.jpg");
+}
+
+.About img {
+  width: 230px;
+  height: 230px;
+}
 
   h1 {
-    font-family: 'Caveat', cursive;
+    /* Box-model */
+    padding: 9px;
+  
+    /* Positioning */
+    margin: 0;
     font-size: 50px;
-    position: relative;
+  
+    /* Typography */
+    font-family: 'Caveat', cursive;
+    color: black;
+    text-align: center;
+  }
+
+  .Love img {
+    width: 430px;
+    height: 300px;
   }
 
   h2 {
-    font-family: 'Caveat', cursive;
+    /* Box-model */
+    padding: 9px;
+ 
+    /* Positioning */
+    margin: 0;
     font-size: 50px;
-    position: relative;
-  }
+  
+    /* Typography */
+    font-family: 'Caveat', cursive;
+    color: black;
+    text-align: center;
+ }
 
+ h5 {
+  font-family: 'Caveat', cursive;
+  color: black;
+  text-align: center;
+ }
+
+ .family img {
+   width: 600px;
+   height: 400px;
+ }
+
+ .boyfriend img {
+    width: 600px;
+    height: 400px;
+ }
+
+ .Pup img {
+   width: 600px;
+   height: 400px;
+ }
   p {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 16px;
   }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /*Portfolio*/
 
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h3 {
+    font-family: 'Caveat', cursive;
+    color: black;
+    text-align: center;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
 
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
   
   
+
