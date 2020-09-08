@@ -24,19 +24,19 @@ My Portfolio implemeneted by Bootstrap. Within my portfolio, you will find that 
 ## **About Me**
 
 <p align="center">
-<img  src="./images/AboutMe.png" width="80%">
+![About Me](./images/About Me.png)
 </p>
 
 ## **Contact Me*
 
 <p align="center">
-<img  src="./images/Bootstrap Forms.png" width="80%">
+![Contact Me](./images/Bootstrap Forms.png)
 </p>
 
 ## **My Portfolio**
 
 <p align="center">
-<img  src="./images/Portfolio.png" width="80%">
+![Mt Portfolio](./images/Portfolio.png)
 </p>
 
 
