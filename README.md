@@ -22,7 +22,7 @@ My Portfolio implemeneted by Bootstrap. Within my portfolio, you will find that 
 ## **About Me**
 
 <p align="center">
-<img  src="./images/AboutMe.png" width="80%">
+![About Me](./images/About Me.png)
 </p>
 
 ## **Contact Me**
