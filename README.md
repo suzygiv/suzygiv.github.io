@@ -1,5 +1,3 @@
-# Suzanne Givnish - My Portfolio
-
 <h1 align="center">My Portfolio</h1>
 
 ## Description
@@ -26,7 +24,7 @@ My Portfolio implemeneted by Bootstrap. Within my portfolio, you will find that 
 <p align="center">
 <img  src="./images/AboutMe.png" width="80%">
 </p>
-
+8
 ## **Contact Me*
 
 <p align="center">
