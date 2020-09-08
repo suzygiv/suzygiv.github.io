@@ -28,7 +28,7 @@ My Portfolio implemeneted by Bootstrap. Within my portfolio, you will find that 
 ## **Contact Me**
 
 <p align="center">
-<img  src="./images/Bootstrap Forms.png" width="80%">
+(https://github.com/suzygiv/suzygiv.github.io/blob/master/images/Bootstrap%20Forms.PNG?raw=true)
 </p>
 
 ## **My Portfolio**
