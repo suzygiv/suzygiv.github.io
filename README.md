@@ -14,6 +14,7 @@ My Portfolio is implemeneted by Bootstrap - all images and layouts are responsiv
 - The About Me page is implemented with Bootstrap - I used many grids that included rows and columns.
 - The Contact Me page is implemented with Bootstrap - For this I used many grids as well.
 - The My Portfolio page is implemented with Bootstrap - I created the portfolio gallery by using grids - containers, rows, columns.
+- Each page has been checked with the html validator tool.
 
 ### CSS & Bootstrap
 
