@@ -2,7 +2,7 @@
 
 ## Description
 
-My Portfolio implemeneted by Bootstrap. Within my portfolio, you will find that it contains 3 sections- Index/About Me, Contact Me, and My Portfolio. Each of these sections are responsive. Within the Index/About Me, I included a short paragraph about who I am and three images of "The Ones I Love" - My Family, My Boyfriend, and My Pup. Within the Contact Me section, I created a form that includes First Name, Last Name, Email Address, and Message. I created this by using the form template from GetBootstrap.com - the template allowed me to add and delete form fields. Within the Portfolio section, I created a Portfolio gallery that includes my projects.
+My Portfolio is implemeneted by Bootstrap. Within my portfolio, you will find that it contains 3 sections- Index/About Me, Contact Me, and My Portfolio. Each of these sections are responsive. Within the Index/About Me, I included a short paragraph about who I am and three images of "The Ones I Love" - My Family, My Boyfriend, and My Pup. Within the Contact Me section, I created a form that includes First Name, Last Name, Email Address, and Message. I created this by using the form template from GetBootstrap.com - the template allowed me to add and delete form fields. Within the Portfolio section, I created a Portfolio gallery that includes my projects.
 
 
 ## About the project
