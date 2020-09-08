@@ -1,14 +1,11 @@
 /*Index/About Page*/
 
 body {
-  /* Box-model */
   padding: 0;
 
-  /* Positioning */
   margin: 0;
   font-family: 'Kumbh Sans', sans-serif
 
-  /* Visual */
   background-image: url("./images/moroccan-flower.jpg");
 }
 
@@ -18,14 +15,11 @@ body {
 }
 
   h1 {
-    /* Box-model */
     padding: 9px;
   
-    /* Positioning */
     margin: 0;
     font-size: 50px;
-  
-    /* Typography */
+   
     font-family: 'Caveat', cursive;
     color: black;
     text-align: center;
@@ -37,14 +31,11 @@ body {
   }
 
   h2 {
-    /* Box-model */
     padding: 9px;
- 
-    /* Positioning */
+
     margin: 0;
     font-size: 50px;
   
-    /* Typography */
     font-family: 'Caveat', cursive;
     color: black;
     text-align: center;
@@ -70,6 +61,7 @@ body {
    width: 600px;
    height: 400px;
  }
+
   p {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 16px;
@@ -87,7 +79,6 @@ body {
   
   /*Portfolio*/
 
-  /* Center website */
   .main {
     max-width: 1000px;
     margin: auto;
@@ -98,7 +89,7 @@ body {
     color: black;
     text-align: center;
   }
-  
+
   .row {
     margin: 8px -16px;
   }
@@ -113,7 +104,6 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
   }
   
-  /* Center website */
   .main {
     max-width: 1000px;
     margin: auto;
@@ -123,26 +113,22 @@ body {
     margin: 8px -16px;
   }
   
-  /* Add padding BETWEEN each column */
   .row,
   .row > .column {
     padding: 8px;
   }
   
-  /* Create four equal columns that floats next to each other */
   .column {
     float: left;
     width: 25%;
   }
   
-  /* Clear floats after rows */ 
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Content */
   .content {
     background-color: white;
     padding: 10px;
