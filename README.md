@@ -24,8 +24,8 @@ My Portfolio implemeneted by Bootstrap. Within my portfolio, you will find that 
 <p align="center">
 <img  src="./images/AboutMe.png" width="80%">
 </p>
-8
-## **Contact Me*
+
+## **Contact Me**
 
 <p align="center">
 <img  src="./images/Bootstrap Forms.png" width="80%">
