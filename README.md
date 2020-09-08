@@ -21,22 +21,22 @@ My Portfolio is implemeneted by Bootstrap. Within my portfolio, you will find th
 
 # Pages
 
-### **About Me**
+### **About Me Overview**
 
 <p align="center">
  (https://github.com/suzygiv/suzygiv.github.io/blob/master/images/About%20Me.PNG?raw=true)
 </p>
 
-### **Contact Me**
+### **Contact Me Using Bootstrap**
 
 <p align="center">
 (https://github.com/suzygiv/suzygiv.github.io/blob/master/images/Bootstrap%20Forms.PNG?raw=true)
 </p>
 
-### **My Portfolio**
+### **My Portfolio HTML**
 
 <p align="center">
-<img  src="./images/Portfolio.png" width="80%">
+(https://github.com/suzygiv/suzygiv.github.io/blob/master/images/Portfolio.PNG?raw=true(
 </p>
 
 
