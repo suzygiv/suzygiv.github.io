@@ -7,19 +7,21 @@ My Portfolio implemeneted by Bootstrap. Within my portfolio, you will find that 
 
 ## About the project
 
-### Drag and Drop
+### How I Implemented Each Page
 
-- Drag and drop is implemented with native html5 drag and drop api with @drag, @dragend, @dragenter eventlisteners on the Card.vue component.
-- Libraries like Vue.draggable were not used as i had to write most of the drag and drop logic according to the solitaire game type and I also had to **MOVE** the stack of cards.
-- Ghost image in drag is removed instead the **whole stack** of card moves with cursor change.
+- The Navbar is implemented by Bootstrap.
+- The background image is implemented with Bootswatch.com 
+- The About Me page is implemented with Bootstrap - I used many grids that included rows and columns.
+- The Contact Me page is implemented with Bootstrap - For this I used many grids as well.
+- The My Portfolio page is implemented with Bootstrap - I created the portfolio gallery by using grids - containers, rows, columns.
 
 ### CSS
 
-- Each and every card is 100% css except the SVG of the suit in the center of the card,which is made by illustrator tool.
+- Each and every page is 100% css.
 
 # Variants
 
-## **About Me**
+### **About Me**
 
 <p align="center">
  (https://github.com/suzygiv/suzygiv.github.io/blob/master/images/About%20Me.PNG?raw=true)
