@@ -19,7 +19,7 @@ My Portfolio implemeneted by Bootstrap. Within my portfolio, you will find that 
 
 - Each and every page is 100% css.
 
-# Variants
+# Pages
 
 ### **About Me**
 
@@ -27,13 +27,13 @@ My Portfolio implemeneted by Bootstrap. Within my portfolio, you will find that 
  (https://github.com/suzygiv/suzygiv.github.io/blob/master/images/About%20Me.PNG?raw=true)
 </p>
 
-## **Contact Me**
+### **Contact Me**
 
 <p align="center">
 (https://github.com/suzygiv/suzygiv.github.io/blob/master/images/Bootstrap%20Forms.PNG?raw=true)
 </p>
 
-## **My Portfolio**
+### **My Portfolio**
 
 <p align="center">
 <img  src="./images/Portfolio.png" width="80%">
