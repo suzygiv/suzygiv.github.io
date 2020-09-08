@@ -22,7 +22,7 @@ My Portfolio implemeneted by Bootstrap. Within my portfolio, you will find that 
 ## **About Me**
 
 <p align="center">
- ![alt text](./images/About Me.png)
+ ![About Me](https://github.com/suzygiv/suzygiv.github.io/blob/master/images/About%20Me.PNG?raw=true)
 </p>
 
 ## **Contact Me**
