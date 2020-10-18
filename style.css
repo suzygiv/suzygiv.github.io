@@ -1,23 +1,43 @@
 /*Index/About Page*/
 
+.navbar-brand {
+  font-family: 'GFS Didot', serif;
+  background-color: white;
+  width: 170px;
+  left: 15px;
+  max-height: 70px; 
+}
+
+.navbar {
+  border-bottom: 2px solid black;
+}
+
+ul {
+  font-family: 'Hind Guntur', sans-serif;
+  font-size: 15px;
+}
+
 body {
   padding: 0;
 
   margin: 0;
-  font-family: 'Kumbh Sans', sans-serif;
-
-  background-image: url("./images/moroccan-flower.jpg");
+  font-family: 'Nanum Myeongjo', serif;
 }
+
 
   h1 {
     padding: 9px;
   
     margin: 0;
-    font-size: 50px;
+    font-size: 30px;
    
-    font-family: 'Caveat', cursive;
+    font-family: 'Hind Madurai', sans-serif;
     color: black;
-    text-align: center;
+    text-align: left;
+  }
+
+  .social {
+    float: right;;
   }
 
   h2 {
@@ -26,13 +46,13 @@ body {
     margin: 0;
     font-size: 50px;
   
-    font-family: 'Caveat', cursive;
+    font-family: 'Hind Madurai', sans-serif;
     color: black;
     text-align: center;
  }
 
  h5 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Hind Madurai', sans-serif;
   font-size: 30px;
   color: black;
   text-align: center;
@@ -54,7 +74,7 @@ body {
  }
 
   p {
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Courgette', cursive;
     font-size: 16px;
   }
   
@@ -97,7 +117,7 @@ body {
   }
   
   body {
-    background-color: #f1f1f1;
+    background-color: white;
     padding: 20px;
     font-family: 'Kumbh Sans', sans-serif;
   }

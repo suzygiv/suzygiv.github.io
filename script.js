@@ -29,3 +29,7 @@ $('#codeGitBtn').on('click', function () {
     window.location.href = 'https://github.com/suzygiv/Code-Quiz';
 });
 
+$('#submitBtn').on('click', function () {
+    console.log('Submit');
+    window.location.href = 'mailto:suzannegivnish@gmail.com';
+});
