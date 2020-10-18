@@ -33,3 +33,5 @@ $('#submitBtn').on('click', function () {
     console.log('Submit');
     window.location.href = 'mailto:suzannegivnish@gmail.com';
 });
+
+
