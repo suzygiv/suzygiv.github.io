@@ -98,7 +98,16 @@ body {
     font-size: 15px;
     text-align: center;
   }
-  
+
+  p.contact-body {
+    font-family: 'Hind Guntur', sans-serif;
+  }
+
+  .contact-icons {
+    position: center;
+    width: 70px;
+    font-size: 20px;
+  }
   * {
     box-sizing: border-box;
   }

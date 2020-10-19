@@ -34,8 +34,5 @@ $('#submitBtn').on('click', function () {
     window.location.href = 'mailto:suzannegivnish@gmail.com';
 });
 
-$('#resumeBtn').on('click', function () {
-    console.log('Resume');
-    window.location.href = 'https://domain.com/Suzanne_Givnish_Resume_2.PDF';
-});
+
 
