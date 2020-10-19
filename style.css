@@ -5,7 +5,7 @@
   background-color: white;
   width: 170px;
   left: 15px;
-  max-height: 70px; 
+  max-height: 90px; 
 }
 
 .navbar {
@@ -16,6 +16,11 @@ ul {
   font-family: 'Hind Guntur', sans-serif;
   font-size: 15px;
 }
+
+img { 
+  float: left;  
+  margin: 5px; 
+} 
 
 body {
   padding: 0;
@@ -36,10 +41,33 @@ body {
     text-align: left;
   }
 
-  .social {
-    float: right;;
+  footer {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    clear: both;
+    background-color: white;
+    color: black;
+    position: relative;
   }
-
+  footer span {
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
+    float: left;
+  }
+  .footerwidth {
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .icons {
+    float: right;
+    width: 70px;
+    font-size: 20px;
+  }
+ 
   h2 {
     padding: 9px;
 
@@ -58,24 +86,17 @@ body {
   text-align: center;
  }
 
- .family img {
-   width: 600px;
-   height: 400px;
- }
-
- .boyfriend img {
-    width: 600px;
-    height: 400px;
- }
-
- .Pup img {
-   width: 600px;
-   height: 400px;
- }
-
-  p {
+  .about-body {
     font-family: 'Courgette', cursive;
     font-size: 16px;
+    text-align: justify;
+  }
+
+  .contact-body {
+    font-family: 'Hind Guntur', sans-serif;
+    font-style: bold;
+    font-size: 15px;
+    text-align: center;
   }
   
   * {
@@ -100,6 +121,10 @@ body {
   .main {
     max-width: 1000px;
     margin: auto;
+  }
+
+  .a {
+    font-family: 'Hind Guntur', sans-serif;
   }
   
   h3 {
