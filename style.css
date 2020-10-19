@@ -18,6 +18,30 @@ ul {
   font-size: 15px;
 }
 
+li {
+  font-family: 'Hind Guntur', sans-serif;
+  color: black;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+li::after {
+  background-color: black;
+  content: "";
+  width: 0;
+  height: 1px;
+  left: 0;
+  bottom: 0;
+  transition: width 0.35s ease 0s;
+  position: absolute;
+}
+
+li:hover::after {
+  width: 100%;
+}
+
+
 
 img { 
   float: left;  
