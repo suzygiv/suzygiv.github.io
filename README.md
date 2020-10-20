@@ -25,12 +25,15 @@ This responsive portfolio was implemeneted by using Bootstrap 4.5 framework - al
 ## Pages
 
 About Me Page:
+
 ![About Me screenshot](https://github.com/suzygiv/suzygiv.github.io/blob/master/images/about-me-landing-page.PNG)
 
 Portfolio Page:
+
 ![Portfolio screenshot](https://github.com/suzygiv/suzygiv.github.io/blob/master/images/portfolio-page.PNG)
 
 Contact Me Page:
+
 ![Contact Me screenshot](https://github.com/suzygiv/suzygiv.github.io/blob/master/images/contact-page.PNG)
 
 
