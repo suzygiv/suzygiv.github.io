@@ -7,7 +7,7 @@ https://suzygiv.github.io/
 
 This portfolio was created to showcase my work in the Penn LPS Full Stack Coding Boot Camp.
 
-This responsive portfolio was implemeneted by using Bootstrap 4.5 framework - all images and layouts are responsive. Within my portfolio, you will find that it contains 3 sections- Index/About Me, Contact Me, and My Portfolio. Each of these pages are responsive. 
+This responsive portfolio was implemeneted by using Bootstrap 4.5 framework - all images and layouts are responsive. Within my portfolio, you will find that it contains 3 responsive web pages - Index/About Me, Contact Me, and My Portfolio. 
 
 ## Implementation
 
