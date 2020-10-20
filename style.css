@@ -1,5 +1,11 @@
 /*Index/About Page*/
 
+body {
+  background-image: url('https://image.freepik.com/free-photo/old-parchment-paper-banner-texture_118047-2571.jpg');
+  background-repeat: no-repeat;
+}
+
+
 .navbar-brand {
   font-family: 'El Messiri', sans-serif;
   background-color: white;
