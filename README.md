@@ -26,34 +26,6 @@ My Portfolio is implemeneted by Bootstrap - all images and layouts are responsiv
 
 # Pages
 
-### **About Me Overview**
 
-<p align="center">
-<<<<<<< HEAD
-![About Me](./images/About Me.png)
-=======
- (https://github.com/suzygiv/suzygiv.github.io/blob/master/images/About%20Me.PNG?raw=true)
->>>>>>> f92e955baff19c949447f4185008023fbfc0e51d
-</p>
-
-### **Contact Me Using Bootstrap**
-
-<p align="center">
-<<<<<<< HEAD
-![Contact Me](./images/Bootstrap Forms.png)
-=======
-(https://github.com/suzygiv/suzygiv.github.io/blob/master/images/Bootstrap%20Forms.PNG?raw=true)
->>>>>>> f92e955baff19c949447f4185008023fbfc0e51d
-</p>
-
-### **My Portfolio HTML**
-
-<p align="center">
-<<<<<<< HEAD
-![Mt Portfolio](./images/Portfolio.png)
-=======
-(https://github.com/suzygiv/suzygiv.github.io/blob/master/images/Portfolio.PNG?raw=true(
->>>>>>> f92e955baff19c949447f4185008023fbfc0e51d
-</p>
 
 
