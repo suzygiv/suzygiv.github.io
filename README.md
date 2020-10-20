@@ -17,10 +17,11 @@ This responsive portfolio was implemeneted by using Bootstrap 4.5 framework - al
 - The My Portfolio page is implemented with Bootstrap - I created the portfolio gallery by using grids - containers, rows, columns.
 - Each page has been checked with the html validator tool.
 
-## CSS & Bootstrap
+## CSS, Bootstrap, & jQuery
 
-- Each and every page is 100% css and boostrap.
+- Each and every page is 100% CSS and Bootstrap.
 - All images and layouts are responsive - some components that I used from Bootstrap are Cards, Forms, and Navbar. 
+- For the portfolio page, I used jQuery to create an on click event for the submit buttons. I also used jQuery within the contact me page for the submit button.
 
 ## Pages
 
