@@ -38,3 +38,5 @@ Contact Me Page:
 ![Contact Me screenshot](https://github.com/suzygiv/suzygiv.github.io/blob/master/images/contact-page.PNG)
 
 
+## License
+[MIT License](http://opensource.org/licenses/mit-license.php)
