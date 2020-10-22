@@ -16,12 +16,13 @@ This responsive portfolio runs in the browser and features dynamically updated H
 - The Contact Me page is implemented with Bootstrap - For this I used many grids as well.
 - The My Portfolio page is implemented with Bootstrap - I created the portfolio gallery by using grids - containers, rows, columns.
 - Each page has been checked with the html validator tool.
+- I used Google Fonts to create the variation of fonts on each page.
 
 ## CSS, Bootstrap, & jQuery
 
 - Each and every page is 100% CSS and Bootstrap.
 - All images and layouts are responsive - some components that I used from Bootstrap are Cards, Forms, Buttons and Navbar. 
-- For the portfolio page, I used jQuery to create an on click event for the submit buttons. I also used jQuery within the contact me page to create an on click event for the submit button.
+- For the Portfolio Page and Contact Page, I used jQuery to create an on click event for the submit buttons. 
 
 ## Pages
 
