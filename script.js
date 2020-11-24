@@ -29,6 +29,16 @@ $('#codeGitBtn').on('click', function () {
     window.location.href = 'https://github.com/suzygiv/Code-Quiz';
 });
 
+$('#burgerBtn').on('click', function () {
+    console.log('Code');
+    window.location.href = 'https://suzy-eat-da-burger.herokuapp.com/';
+});
+
+$('#burgerGitBtn').on('click', function () {
+    console.log('Code Github');
+    window.location.href = 'https://github.com/suzygiv/Eat-Da-Burger';
+});
+
 $('#submitBtn').on('click', function () {
     console.log('Submit');
     window.location.href = 'mailto:suzannegivnish@gmail.com';
