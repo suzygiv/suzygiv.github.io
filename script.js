@@ -39,6 +39,26 @@ $('#burgerGitBtn').on('click', function () {
     window.location.href = 'https://github.com/suzygiv/Eat-Da-Burger';
 });
 
+$('#workDayBtn').on('click', function () {
+    console.log('Code');
+    window.location.href = 'https://suzygiv.github.io/Work-Day-Scheduler/';
+});
+
+$('#workDayGitBtn').on('click', function () {
+    console.log('Code Github');
+    window.location.href = 'https://github.com/suzygiv/Work-Day-Scheduler';
+});
+
+$('#noteTakerBtn').on('click', function () {
+    console.log('Code');
+    window.location.href = 'https://suzy-note-taker.herokuapp.com/';
+});
+
+$('#noteTakerGitBtn').on('click', function () {
+    console.log('Code Github');
+    window.location.href = 'https://github.com/suzygiv/Note-Taker';
+});
+
 $('#submitBtn').on('click', function () {
     console.log('Submit');
     window.location.href = 'mailto:suzannegivnish@gmail.com';
