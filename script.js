@@ -30,38 +30,63 @@ $('#codeGitBtn').on('click', function () {
 });
 
 $('#burgerBtn').on('click', function () {
-    console.log('Code');
+    console.log('Burger');
     window.location.href = 'https://suzy-eat-da-burger.herokuapp.com/';
 });
 
 $('#burgerGitBtn').on('click', function () {
-    console.log('Code Github');
+    console.log('Burger Github');
     window.location.href = 'https://github.com/suzygiv/Eat-Da-Burger';
 });
 
 $('#workDayBtn').on('click', function () {
-    console.log('Code');
+    console.log('Work Day');
     window.location.href = 'https://suzygiv.github.io/Work-Day-Scheduler/';
 });
 
 $('#workDayGitBtn').on('click', function () {
-    console.log('Code Github');
+    console.log('Work Day Github');
     window.location.href = 'https://github.com/suzygiv/Work-Day-Scheduler';
 });
 
 $('#noteTakerBtn').on('click', function () {
-    console.log('Code');
+    console.log('Note Taker');
     window.location.href = 'https://suzy-note-taker.herokuapp.com/';
 });
 
 $('#noteTakerGitBtn').on('click', function () {
-    console.log('Code Github');
+    console.log('Note Taker Github');
     window.location.href = 'https://github.com/suzygiv/Note-Taker';
 });
+
+$('#wrappItGitBtn').on('click', function () {
+    console.log('WrappIt Github');
+    window.location.href = 'https://github.com/suzygiv/WrappIt';
+});
+
+$('#wrappItBtn').on('click', function () {
+    console.log('WrappIt');
+    window.location.href = 'https://intense-falls-86763.herokuapp.com/';
+});
+
+$('#passwordGeneratorGitBtn').on('click', function () {
+    console.log('WrappIt Github');
+    window.location.href = 'https://github.com/suzygiv/Password-Generator';
+});
+
+$('#passwordGeneratorBtn').on('click', function () {
+    console.log('WrappIt');
+    window.location.href = 'https://suzygiv.github.io/Password-Generator/';
+});
+
+$('#professionalReadMeGitBtn').on('click', function () {
+    console.log('WrappIt');
+    window.location.href = 'https://github.com/suzygiv/Professional-README-Generator';
+});
+
 
 $('#submitBtn').on('click', function () {
     console.log('Submit');
     window.location.href = 'mailto:suzannegivnish@gmail.com';
 });
-
 
