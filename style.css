@@ -112,6 +112,10 @@ body {
     text-align: justify;
   }
 
+  .card-resume{
+    text-align: center;
+  }
+
   .contact-body {
     font-family: 'Hind Guntur', sans-serif;
     font-style: bold;
