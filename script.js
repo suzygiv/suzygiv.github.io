@@ -130,6 +130,50 @@ $('#fitnessTrackerBtn').on('click', function () {
     window.location.href = 'https://cryptic-brushlands-95540.herokuapp.com/?id=5ff87bd1ab7257001702c139';
 });
 
+//Team Profile Generator Buttons
+$('#teamProfileGitBtn').on('click', function () {
+    console.log('Team Profile Generator Github');
+    window.location.href = 'https://github.com/suzygiv/Team-Profile-Generator';
+});
+
+$('#teamProfileBtn').on('click', function () {
+    console.log('Team Profile Generator');
+    window.location.href = 'https://drive.google.com/file/d/1-iYR_vyOpaHbox9mUFD9_pj3eetaFgi7/view';
+});
+
+//Google Books React Search Buttons
+$('#googleGitBtn').on('click', function () {
+    console.log('Google Books React Search Github');
+    window.location.href = 'https://github.com/suzygiv/Google-Books-React-Search';
+});
+
+$('#googleBtn').on('click', function () {
+    console.log('Google Books React Search');
+    window.location.href = 'https://pure-everglades-03286.herokuapp.com/';
+});
+
+//React Portfolio Buttons
+$('#reactGitBtn').on('click', function () {
+    console.log('React Portfolio Github');
+    window.location.href = 'https://github.com/suzygiv/React-Portfolio';
+});
+
+$('#reactBtn').on('click', function () {
+    console.log('React Portfolio');
+    window.location.href = 'https://suzygiv.github.io/React-Portfolio/';
+});
+
+//Code Refactor Buttons
+$('#codeRGitBtn').on('click', function () {
+    console.log('Code Refactor Github');
+    window.location.href = 'https://github.com/suzygiv/Code-Refactor';
+});
+
+$('#codeRBtn').on('click', function () {
+    console.log('Code Refactor');
+    window.location.href = 'https://suzygiv.github.io/Code-Refactor/';
+});
+
 //Contact Submit Button
 $('#submitBtn').on('click', function () {
     console.log('Submit');
