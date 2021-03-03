@@ -174,6 +174,17 @@ $('#codeRBtn').on('click', function () {
     window.open('https://suzygiv.github.io/Code-Refactor/', "_blank");
 });
 
+//GiveBack-KeepTrack Buttons
+$('#gbktGitBtn').on('click', function () {
+    console.log('GiveBack-KeepTrack Github');
+    window.open('https://github.com/suzygiv/GiveBack-KeepTrack', "_blank");
+});
+
+$('#gbktBtn').on('click', function () {
+    console.log('GiveBack-KeepTrack');
+    window.open('https://giveback-keeptrack.herokuapp.com/', "_blank");
+});
+
 //Contact Submit Button
 $('#submitBtn').on('click', function () {
     console.log('Submit');
