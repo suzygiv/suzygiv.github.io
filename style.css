@@ -128,7 +128,6 @@ a.nav-link:hover {
   text-align: center;
 }
 
-
 .contact {
   padding-left: 100%;
   padding-right: 100%;
@@ -153,6 +152,7 @@ a.nav-link:hover {
   font-family: 'Montserrat', sans-serif;
   font-style: bold;
   color:black;
+  text-align: center;
 }
 
 .social {
