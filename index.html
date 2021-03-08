@@ -1,137 +1,602 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
-    <title>Suzanne Givnish - My Portfolio</title>
-    
 
-    <!-- Bootstrap CSS -->
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <body>
+  <title>Suzanne Givnish - My Portfolio</title>
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,500&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <header class="header" id="myHeader">
 
     <!-- Navbar -->
-    <nav>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <a class="navbar-brand" id="name" href="./index.html">SUZANNE GIVNISH</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html#home"><img id="logo" src="./images/sg-logo.png" alt="logo" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav right hide-on-med-and-down">
-            <li class="nav-item active">
-              <a class="nav-link" href="./index.html">ABOUT <span class="sr-only">(current)</span></a>
+        <div class="collapse navbar-collapse justify-content-left" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">PORTFOLIO</a>
+              <a class="nav-link" href="index.html#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">CONTACT</a>
+              <a class="nav-link" href="index.html#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./images/Givnish_Resume.pdf">RESUME</a>
+              <a class="nav-link" href="./images/Givnish_Resume.pdf">Resume</a>
             </li>
           </ul>
         </div>
-      </nav>
-    </nav> 
-    <!-- End Navbar -->
-    
+      </div>
+    </nav>
+  </header>
+  <!-- End Navbar -->
 
-    <br>
-    
-    <!-- Start About Me -->
-    <section class="container">
-      <div class="About">
-        <div class="row">
-          <img src="./images/me3.jpg" alt="Me">
-            <div class="col-sm-8">
-              <h1 class="about">ABOUT</h1>
-             <br>
-              <div class="about-body">
-                <p>Philadelphia-based Frontend Web Developer who likes to spend much of her time with her family, friends, boyfriend & pup.</p> 
-          
-                <p>I've always been curious - curious to detail, to the way things work, to the way people work, and especially to how others work together. 
-          
-                <p>As a web developer, combining this curiosity and the love I have for working collaboratively with others is revealed through the work I produce. As you will see, each project is created with close attention to detail and full consideration of the end-user.</p>
-              </div>    
+
+  <section id="home">
+
+    <div class="container-fluid">
+      <section id="about">
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5">
+          <div id="name-div">
+            <p class="welcome-font">Welcome, my name is</p>
+            <br><br>
+            <p id="home-name"> SUZANNE GIVNISH;</p>
+          </div>
+          <div id="home">
+            <p class="home-font">I enjoy turning complex problems 
+              <br>into simple, beautiful, and intuitive designs.
+              <br>When I'm not coding, you'll find me walking my dog,
+              <br>binging every and all true crime docuseries<br> with my boyfriend,
+              baking or working out.</span>
+            </p>
+          </div>
+          <div class="mywork">
+          <strong><a href="index.html#portfolio"> Check out my work</a></strong>
+          </div>
+        </div>
+        <div class="col-sm-5">
+          <div id="portrait-div">
+            <img id="Me" src="./images/me2.jpg" alt="Me">
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+  </section>
+
+  <br><br>
+
+    <div class="row">
+      <!-- about me -->
+      <div class="col-12 about">
+
+      </div>
+      <div class="row columns">
+        <div class="col-4">
+          <h3 class="about-section-header">Intuitive</h3>
+          <p class="about-paragraphs">
+            Some may call me "sensitive", a word that for some reason or another has a unfavorable connotation to it. This word, sensitive, however embodies who I am - a 'think-on-your-feet-trust-your-gut-feeling' woman. I recognize underlying patterns in individuals and projects which provides me with the ability to make creative, intelligent, and successful decisions in complicated circumstances.
+          </p>
+        </div>
+
+        <div class="col-4">
+          <h3 class="about-section-header" id="word-wrap">Proactive</h3>
+          <p class="about-paragraphs">
+            On a personal note, I quit drinking 8 years ago. I understood my lack of control and decided, on my own, to take responsibility for my life and understand the need for change. This decision, made 8 years ago, has proven that I have the initiative and the responsibility to make things happen.
+
+          </p>
+        </div>
+        <div class="col-4">
+          <h3 class="about-section-header">Life of the Party</h3>
+          <p class="about-paragraphs">
+            Not in the sense of being loud or always wanting the center of attention, but always striving to make those around me feel welcome and happy. I am what some individuals would refer to as a 'people-person.'
+          </p>
+        </div>
+      </div>
+    </div>
+
+  <br>
+
+
+  <section id="portfolio">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="work">PROJECTS</div>
+       
+
+        <!-- Start of 1st Card Deck -->
+        <div class="card-deck">
+          <!-- Code Refactor -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              Code Refactor
+            </div>
+            <div class="card-body">
+              <img src="./images/Horizeon Landing Page.png" class="card-img-top" alt="Horizeon-Landing-Page">
+              <div class="card-body">
+                <p class="card-text">Refactored an existing webpage to make it accessible.</p>
+                <p><strong>Technologies Used:</strong> HTML, CSS</p>
+              </div>
+              <div class="card-body">
+                <div id="button-row" class="row">
+                  <div class="col-12"><br>
+                    <div class="btn-group" role="group" aria-label="Basic outlined example">
+                      <button type="button" id="codeRBtn" class="btn btn-outline-dark">Visit App</button>
+                      <button type="button" id="codeRGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Eat Da Burger Dashboard -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              Eat Da Burger!
+            </div>
+            <div class="card-body">
+              <img src="./images/Eat-Da-Burger.PNG" class="card-img-top" alt="eat-da-burger-dashboard">
+              <div class="card-body">
+                <p class="card-text">Eat-Da-Burger! is a burger logger with MySQL, Node, Express, Handlebars and a
+                  homemade ORM (yum!).</p>
+                <p><strong>Technologies Used:</strong> MySQL, Node, Express, Handlebars</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="burgerBtn" class="btn btn-outline-dark">Visit App</button>
+                  <button type="button" id="burgerGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Employee Directory Dashboard -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              Employee Directory
+            </div>
+            <div class="card-body">
+              <img src="./images/Employee-Directory-Main.PNG" class="card-img-top" alt="Employee-Directory-Main">
+              <div class="card-body">
+                <p class="card-text">An Employee Directory application created with React that allows the user to view
+                  their entire employee directory at once so that they have quick access to their information.</p>
+                <p><strong>Technologies Used:</strong> React, Axios, React-Bootstrap</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="employeeDBtn" class="btn btn-outline-dark">Visit App</button>
+                  <button type="button" id="employeeDGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fitness Tracker  -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              Fitness Tracker
+            </div>
+            <div class="card-body">
+              <img src="./images/Fitness-Tracker-Main.PNG" class="card-img-top" alt="Fitness-Tracker-Main">
+              <div class="card-body">
+                <p class="card-text">Web application that utilizes MongoDB with a Mongoose schema and handle routes with
+                  Express to allow the user to keep track of their work-out information.</p>
+                <p><strong>Technologies Used:</strong> Express, MongoDB, Mongoose</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="fitnessTrackerBtn" class="btn btn-outline-dark">Visit App</button>
+                  <button type="button" id="fitnessTrackerGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Start of 2nd Card Deck -->
+        <div class="card-deck">
+          <!-- GiveBack-KeepTrack -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              GiveBack-KeepTrack
+            </div>
+            <div class="card-body">
+              <img src="./images/gbkt.png" class="card-img-top" alt="GiveBack-KeepTrack">
+              <div class="card-body">
+                <p class="card-text">Full stack application built with React JS. Users can keep track of their
+                  charitable donations throughout the year, including details such as category, tax deductible, employer
+                  matched, and receipts/documentation.</p>
+                <p><strong>Technologies Used:</strong> React, JSX, React-Bootstrap, MongoDB, Express, Node, Axios,
+                  chart.js, mySQL, Sequelize, passport.js, react-confetti.npm, bcrypt.js, InVision</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="gbktBtn" class="btn btn-outline-dark">Visit App</button>
+                  <button type="button" id="gbktGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Google Books React Search -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              Google Books React Search
+            </div>
+            <div class="card-body">
+              <img src="./images/Google-Books-Main.PNG" class="card-img-top" alt="code-quiz">
+              <div class="card-body">
+                <p class="card-text">A React-based Google Books Search app that utilizes React lifecycle methods to
+                  query and display books based on user searches.</p>
+                <p><strong>Technologies Used:</strong> React, React-Bootstrap Mongoose, MongoDB, Express, Node</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="googleBtn" class="btn btn-outline-dark">Visit App</button>
+                  <button type="button" id="googleGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- JavaScript Quiz -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              JavaScript Quiz
+            </div>
+            <div class="card-body">
+              <img src="./images/code-quiz.PNG" class="card-img-top" alt="code-quiz">
+              <div class="card-body">
+                <p class="card-text">Responsive web application that gives users a timed quiz and records high scores.
+                </p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="codeBtn" class="btn btn-outline-dark">Visit App</button>
+                  <button type="button" id="codeGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Note Taker Dashboard -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              Note Taker
+            </div>
+            <div class="card-body">
+              <img src="./images/note-taker-main.PNG" class="card-img-top" alt="note-taker-dashboard">
+              <div class="card-body">
+                <p class="card-text">Web application that can be used to write, save, and delete notes. This application
+                  uses an express backend and saves and retrieves note data from a JSON file.</p>
+                <p><strong>Technologies Used:</strong> Express, Node</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="noteTakerBtn" class="btn btn-outline-dark">Visit App</button>
+                  <button type="button" id="noteTakerGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Start of 3rd Card Deck -->
+        <div class="card-deck">
+          <!-- Password Generator-->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              Password Generator
+            </div>
+            <div class="card-body">
+              <img src="./images/Password-Generator-App.png" class="card-img-top" alt="password-generator-dashboard">
+              <div class="card-body">
+                <p class="card-text">Web application that generates a random password based on user-selected criteria.
+                </p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="passwordGeneratorBtn" class="btn btn-outline-dark">Visit App</button>
+                  <button type="button" id="passwordGeneratorGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Progressive Budget-->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              Progressive Budget
+            </div>
+            <div class="card-body">
+              <img src="./images/Progressive-Budget.PNG" class="card-img-top" alt="progressive-budget">
+              <div class="card-body">
+                <p class="card-text">A Budget Tracker application that allows the user to add expenses and deposits to
+                  their budget with or without data/internet connection.</p>
+                <p><strong>Technologies Used:</strong> Express, Node, Mongoose</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="progressiveBudgetBtn" class="btn btn-outline-dark">Visit App</button>
+                  <button type="button" id="progressiveBudgetGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Professional README.md Generator -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              README.md Generator
+            </div>
+            <div class="card-body">
+              <img src="./images/Sample-README2.md-file.png" class="card-img-top" alt="README-dashboard">
+              <div class="card-body">
+                <p class="card-text">A command-line application that dynamically generates a professional README.md file
+                  from a user's input using the Inquirer package.</p>
+                <p><strong>Technologies Used:</strong> Axios, Inquirer</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="professionalReadMeVideoBtn" class="btn btn-outline-dark">Visit
+                    Video</button>
+                  <button type="button" id="professionalReadMeGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Team Profile Generator -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              Team Profile Generator
+            </div>
+            <div class="card-body">
+              <img src="./images/Sample Team Generator.PNG" class="card-img-top" alt="travel-companion">
+              <div class="card-body">
+                <p class="card-text">A software engineering team generator command-line application that prompts the
+                  user for information about the team manager and then information about the team members.</p>
+                <p><strong>Technologies Used:</strong> Jest, Inquirer</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="teamProfileBtn" class="btn btn-outline-dark">Visit Video</button>
+                  <button type="button" id="teamProfileGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Start of 4TH Card Deck -->
+        <div class="card-deck">
+          <!-- Project 1 - Travel Companion -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              Travel Companion
+            </div>
+            <div class="card-body">
+              <img src="./images/landing-page.png" class="card-img-top" alt="travel-companion">
+              <div class="card-body">
+                <p class="card-text">Web application used to simulate the cultural experience of traveling while stuck
+                  at home in quarantine.</p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, Third-Party APIs</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="travelBtn" class="btn btn-outline-dark">Visit App</button>
+                  <button type="button" id="travelGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Weather Dashboard -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              Weather Dashboard
+            </div>
+            <div class="card-body">
+              <img src="./images/weather-dashboard.PNG" class="card-img-top" alt="weather-dashboard">
+              <div class="card-body">
+                <p class="card-text">Web application using the OpenWeather API to display current and future weather
+                  data.</p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript, OpenWeather API</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="weatherBtn" class="btn btn-outline-dark">Visit App</button>
+                  <button type="button" id="weatherGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Work Day Scheduler Dashboard -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              Work Day Scheduler
+            </div>
+            <div class="card-body">
+              <img src="./images/WorkDayScheduler.PNG" class="card-img-top" alt="work-day-scheduler-dashboard">
+              <div class="card-body">
+                <p class="card-text">A simple calendar application that allows a user to save events for each hour of
+                  the day.</p>
+                <p><strong>Technologies Used:</strong> HTML, CSS, jQuery, moment.js</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="workDayBtn" class="btn btn-outline-dark">Visit App</button>
+                  <button type="button" id="workDayGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 - WrappIt -->
+          <div class="card" style="width: 16rem;">
+            <div class="card-header">
+              WrappIt
+            </div>
+            <div class="card-body">
+              <img src="./images/WrappIt01.png" class="card-img-top" alt="wrappIt-dashboard">
+              <div class="card-body">
+                <p class="card-text">Web application that helps relieve the angst of trying to figure out what to buy
+                  our loved ones for the holidays.</p>
+                <p><strong>Technologies Used:</strong> Express, Express-Handlebars, MySQL2, Sequelize, Sequelize-cli,
+                  dotenv</p>
+              </div>
+              <div class="card-body">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                  <button type="button" id="wrappItBtn" class="btn btn-outline-dark">Visit App</button>
+                  <button type="button" id="wrappItGitBtn" class="btn btn-outline-dark">Visit Github</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    <!-- End About Me -->
 
-    <br>
-
-    <!-- Contact -->
-    <div class="card-resume border-dark mb-1" style="max-width: 80rem; max-height: 40rem;">
-      <div class="card-header">Let's Connect</div>
-      <div class="contact-body text-dark">
         <br>
-        <p><a href="mailto: suzannegivnish@gmail.com"><i class="far fa-envelope"></i> SUZANNEGIVNISH@GMAIL.COM</a></p>
-        <p> <i class="fas fa-phone"></i> (215) 586-1125</p>
-        <iframe src="./images/Givnish_Resume.pdf" width="100%" height="300px"></iframe>
-        <strong><p>If your browser does not support this PDF, please click here to download: <a href="./images/Givnish_Resume.pdf">Download PDF</a></p></strong>
-      </div>
-    </div>
-  
-  </section>
+        
 
-    <br><br><br><br><br>
-  
-    <!-- Border for Footer -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white"></nav>
+        <section id="contact">
+        
+
+          <div class="jumbotron">
+            <div class="contactMe">CONTACT ME</div>
+            <section id="contact">
+              <div class="row">
+                <!-- Form -->
+                <!-- <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                       <label for="inputFirstName">First Name</label>
+                       <input type="text" class="form-control" id="inputFirstName">
+                    </div>
+                    <div class="form-group col-md-6">
+                       <label for="inputLastName">Last Name</label>
+                       <input type="text" class="form-control" id="inputLastName">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                     <label for="inputEmailAddress">Email Address</label>
+                     <input type="text" class="form-control" id="inputEmailAddress">
+                  </div>
+                  <div class="form-group">
+                     <label for="exampleFormControlTextarea1">Message</label>
+                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                   <button type="submit" class="btn btn-dark" id="submitBtn">Submit</button>
+                </form> -->
+                <!-- End Form -->
+      
+              
+                
+                <div class="social">
+              
+                  <p class="slide-in from-right about-section-font thumbnail-margin">
+                    <a href="https://github.com/suzygiv"> GITHUB</a></p>
+                  <p class="slide-in from-right about-section-font thumbnail-margin">
+                    <a href="https://www.linkedin.com/in/suzanne-givnish/"> LINKEDIN</a></p>
+                  <p><a href="mailto: suzannegivnish@gmail.com"><i class="far fa-envelope"></i> SUZANNEGIVNISH@GMAIL.COM</a></p>
+                  <p> <i class="fas fa-phone"></i> (215) 586-1125</p>
+                </div>
+              </div>
+          </div>
+        </section>
+
+      </div>
     
-    <!-- Footer -->
-     <footer>
-      <div class="footerwidth">
-        <span>© 2020 SUZANNE GIVNISH</span>
-        <div class="icons">
-            <!-- nav link -->
-            <a href="https://github.com/suzygiv" i class="fab fa-github"></i></a>
-            <!-- nav link-->
-            <a href="https://www.facebook.com/suzy.givnish/" i class="fab fa-facebook"></i></a>
-            <!-- nav link -->
-            <a href="https://www.linkedin.com/in/suzanne-givnish-09481259/" i class="fab fa-linkedin"></i></a>
+      </section>
+           
+      <div class="row">
+        <div id="to-top" class="col-sm-12 fade-in">
+          <a id="back-to-top" href="index.html#home" style="text-decoration: none;">Back to top</a>
         </div>
       </div>
-    </footer>
- 
-    
-
-    
+  
+      
 
 
+  </section>
 
 
+  <div class="row">
+    <div id="copyright" class="col-sm-12">
+      <p>&#169;Suzanne Givnish<img id="sgLogo"src="./images/sg-logo.png" alt="logo"></p>
+    </div>
 
+  <!-- Border for Footer -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white"></nav>
+
+  <!-- Footer -->
+  <footer class="navbar fixed-bottom">
+    <a href="https://github.com/suzygiv">
+      <image src="./images/github.png" alt="Github icon" class="social-icons">
+    </a>
+    <a href="https://www.linkedin.com/in/suzanne-givnish/">
+      <image src="./images/linkedin.png" alt="LinkedIn icon" class="social-icons">
+    </a>
   
 
-  
- 
-
-    
-
-  
+  </footer>
   
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS, then my JS file -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="script.js"></script>
-    
-  </body>
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS, then my JS file -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
 </html>
