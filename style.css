@@ -6,7 +6,7 @@ a.nav-link:hover {
 
 /* header styles */
 .header {
-  margin-bottom: 100px;  
+  margin-bottom: 70px;  
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
@@ -94,16 +94,24 @@ a.nav-link:hover {
 #home {
   word-wrap: break-word;
 }
+
 .home-font {
   font-family: 'Montserrat', sans-serif;
   text-transform: capitalize;
 }
 
-#me {
-   max-width: 100%;
-   height:auto;
-   max-height: 100%;
-   position: relative;
+#portrait-div{
+  width:100vw;
+  height:85vh;
+  margin:0;
+  padding:0;  
+}
+
+
+.aboutme {
+  font-family:  'Montserrat', sans-serif;
+  font-size: 2.7vw;
+  text-align: center;
 }
 
 .contact {
@@ -129,14 +137,11 @@ a.nav-link:hover {
 #to-top {
   font-family: 'Montserrat', sans-serif;
   font-style: bold;
+  color:black;
 }
 
 .social {
   font-size: 15px;
-  text-align: left;
-}
-
-.image {
   text-align: left;
 }
 
@@ -148,6 +153,10 @@ a.nav-link:hover {
 }
 
 .about-paragraphs {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about {
   font-family: 'Montserrat', sans-serif;
 }
 
