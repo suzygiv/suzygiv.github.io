@@ -182,6 +182,7 @@ a.nav-link:hover {
   font-family: 'Montserrat', sans-serif;
   position: relative;
   margin-bottom:100px; 
+  margin: 4rem;
 }
 
 .navbar {
