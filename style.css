@@ -212,7 +212,7 @@ a.nav-link:hover {
 
 /* copyright footer */
 #contact {
-  position: relative;
+  position: center;
   text-align: left;
   font-family: 'Montserrat', sans-serif;
 }
